@@ -1,0 +1,31 @@
+<!-- res/layout/dialog_edit_music.xml 파일 추가 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etEditTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="노래 제목"/>
+
+    <EditText
+        android:id="@+id/etEditArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="가수"/>
+
+    <EditText
+        android:id="@+id/etEditGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="장르"/>
+
+    <EditText
+        android:id="@+id/etEditDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="재생 시간"/>
+</LinearLayout>
